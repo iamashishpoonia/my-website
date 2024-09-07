@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Name - Minimalist Webpage</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+            color: #333;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Full screen height */
+            overflow: hidden; /* Prevents scrolling */
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+            padding: 20px;
+            text-align: center;
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-template-rows: auto;
+            gap: 20px;
+        }
+
+        .container > div {
+            background-color: #fff;
+            padding: 40px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            font-size: 2.5em;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        p {
+            font-size: 1.1em;
+            color: #666;
+        }
+
+        footer {
+            grid-column: span 2;
+            margin-top: 20px;
+            color: #888;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div>
+            <h1>Welcome</h1>
+            <p>I'm a research scholar in epidemiological and ecological modeling. Dive into my academic and creative pursuits.</p>
+        </div>
+        <div>
+            <h1>My Path to Research</h1>
+            <p>From family influences to working with Dr. XYZ, my journey into mathematical biology has been a blend of curiosity and passion.</p>
+        </div>
+        <div>
+            <h1>Education</h1>
+            <p>PhD in Mathematics from IIT Guwahati. Master's in Mathematics from [Your University].</p>
+        </div>
+        <div>
+            <h1>Publications</h1>
+            <p>Coming soon...</p>
+        </div>
+        <div>
+            <h1>Recommendations</h1>
+            <p>Books, documentaries, and websites that inspire my work and thinking.</p>
+        </div>
+        <div>
+            <h1>Photography</h1>
+            <p>Photography is one of my creative outlets. Explore some of my visual work.</p>
+        </div>
+        <footer>
+            &copy; 2024 Your Name | Minimalist & Simple Design
+        </footer>
+    </div>
+</body>
+
+</html>
